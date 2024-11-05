@@ -1,8 +1,9 @@
 import "@styles/globals.css";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import Nav from "@components/Nav";
 import Footer from "@components/Footer";
-//import Provider from '@components/Provider'
 
 export const metadata = {
   title: "Xcript CS",
@@ -21,6 +22,7 @@ const Rootlayout = ({ children }) => {
           <Nav />
           {children}
           <Footer />
+          <ToastContainer />
         </main>
       </body>
     </html>
