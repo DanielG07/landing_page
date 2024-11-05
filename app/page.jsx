@@ -1,5 +1,5 @@
 import Feed from "@components/Feed";
-import Footer from "@components/Footer";
+import ContactForm from "@components/ContactForm";
 
 const Home = () => (
   <section className='w-full flex-center flex-col'>
@@ -10,10 +10,11 @@ const Home = () => (
       <span className='violet_gradient text-center'> Cloud, IA, Blockchain</span>
     </h1>
     <p className='desc text-center'>
-      Soluciones para la optimización y economización de sistemas para tu organización utilizando tecnologías de vanguardia 
+    Somos una consultoría enfocada en brindar soluciones para la optimización y economización de sistemas para tu organización utilizando tecnologías de vanguardia 
       como el Cloud Computing, Blockchain, IA, Microservices y API.
     </p>
     <Feed/>
+    <ContactForm/>
   </section>
 );
 
