@@ -20,6 +20,7 @@ const Footer = () => {
 
   return (
     <footer class=" bg-white bg-opacity-90 pb-10 mt-6 rounded-lg w-screen">
+<<<<<<< HEAD
         <div class="w-full mx-auto p-4 md:py-4">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="https://xcript.mx/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
@@ -29,29 +30,51 @@ const Footer = () => {
                 <div>
                 <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                     <li>
+=======
+      <div class="w-full mx-auto p-4 md:py-4">
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <a
+            href="https://xcript.mx/"
+            class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+          >
+            <img
+              src="/assets/images/logo.svg"
+              class="h-8"
+              alt="Flowbite Logo"
+            />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black max-sm:items-center">
+              Xcript
+            </span>
+          </a>
+          <div>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+              {/* <li>
+>>>>>>> 3e04dd5 (Update de landing page)
                         <a href="#" class="hover:underline me-4 md:me-6">About</a>
                     </li>
                     <li>
                         <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-                    </li>
-                    {/* <li>
+                    </li> */}
+              {/* <li>
                         <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
                     </li> */}
-                    <li>
-                        <a href="https://wa.me/15586939975" class="hover:underline">Contact</a>
-                    </li>
-                </ul>   
+              <li>
+                <a>Contact</a>
+              </li>
+            </ul>
 
-                <ul class="flex flex-wrap mb-6 text-sm font-normal text-gray-500 sm:mb-0 dark:text-gray-400">
-                    <li>
-                    <a class="hover:underline">service@xcript.com.mx</a>
-                    </li>
-                </ul>  
-                </div>
-            </div>
-            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <span class="block text-sm text-gray-500 text-center dark:text-gray-400" >© 2024 <a >Xcript CS™</a>. All Rights Reserved.</span>
+            <ul class="flex flex-wrap mb-6 text-sm font-normal text-gray-500 sm:mb-0 dark:text-gray-400">
+              <li>
+                <a class="hover:underline">service@xcript.com.mx</a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 text-center dark:text-gray-400">
+          © 2024 <a>Xcript CS™</a>. All Rights Reserved.
+        </span>
+      </div>
     </footer>
   );
 };
