@@ -3,7 +3,7 @@ import Cards from "./Cards";
 
 function Feed() {
   return (
-    <div class="px-10 lg:flex mt-3">
+    <div class="px-14 mt-3 lg:flex justify-self-center">
       <Cards
         title={"Google Cloud"}
         icon={"/assets/images/google.png"}
@@ -29,7 +29,7 @@ function Feed() {
         title={"API Res"}
         icon={"/assets/images/api.png"}
         text={
-          "Desarrollamos poderosas APIs diseñadas para  optimizar herramientas y aplicaciones mediante Microservicios personalizados."
+          "Desarrollamos poderosas APIs diseñadas para optimizar herramientas y aplicaciones mediante Microservicios personalizados."
         }
       />
     </div>

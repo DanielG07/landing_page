@@ -40,7 +40,7 @@ function MainMenu() {
         <p className="logo_text">Xcript Cs</p>
       </Link>
 
-      <ul className="flex flex-1 justify-end space-x-10 py-7 px-10 text-black text-xl">
+      <ul className="flex flex-1 lg:justify-end space-x-10 py-7 px-10  text-black lg:text-xl text-sm ">
         <li>
           <a href="#section1" className="hover:text-violet-500">
             Inicio

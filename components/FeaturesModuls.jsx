@@ -4,8 +4,8 @@ import Image from "next/image";
 
 function FeaturesModuls() {
   return (
-    <div class="px-10 grid grid-cols-4 gap-4">
-      <div class="px-10 grid grid-cols-1 gap-4">
+    <div class="px-10 grid grid-cols-1 gap-2 lg:grid-cols-4 lg:gap-4">
+      <div class="px-10 flex justify-self-center lg:grid lg:grid-cols-1 lg:gap-4">
         <div class="lg:flex grid grid-cols-1">
           <div class="p-1 m-1">
             <span class="relative flex h-3 w-3">
@@ -45,11 +45,11 @@ function FeaturesModuls() {
         </div>
       </div>
 
-      <div class="col-span-2">
+      <div class="mt-20 lg:mt-0 mb-20 lg:mb-0 lg:col-span-2">
         <FeaturesGear />
       </div>
 
-      <div class="px-10 grid grid-cols-1 gap-4">
+      <div class="px-10 flex justify-self-center lg:grid lg:grid-cols-1 lg:gap-4">
         <div class="lg:flex grid grid-cols-1">
           <div class="p-1 m-1">
             <span class="relative flex h-3 w-3">
