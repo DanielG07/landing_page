@@ -31,16 +31,12 @@ const ContactForm = () => {
         Contáctanos
       </h2>
       <h3 className="text-xl text-black-700 text-center mb-6">
-        En Xcript Cloud Solutions, transformamos la tecnología en soluciones
-        prácticas para el crecimiento de tu negocio.
+        Conversemos sobre cómo podemos ayudarte a transformar tu operación con
+        tecnología. Nuestro equipo está listo para asesorarte y diseñar una
+        solución que se adapte a tus objetivos.
       </h3>
       <form ref={refForm} onSubmit={handleSubmit}>
-        <label
-          htmlFor="name"
-          className="block text-sm font-medium text-gray-700"
-        >
-          Nombre:
-        </label>
+        <label htmlFor="name">Nombre:</label>
         <input
           type="text"
           id="name"
