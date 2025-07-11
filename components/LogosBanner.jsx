@@ -25,7 +25,7 @@ function LogosBanner() {
               className="h-20 w-40 flex items-center justify-center mx-6"
             >
               <Image
-                src={client.logo}
+                src={process.env.NEXT_PUBLIC_BASE_PATH + "" + client.logo}
                 alt={`Logo de ${client.name}`}
                 width={120}
                 height={40}

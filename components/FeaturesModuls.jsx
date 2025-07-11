@@ -68,7 +68,12 @@ function AgentCard({ title, description, icon }) {
       {/* Contenido */}
       <div className="flex flex-col space-y-2">
         <div className="flex items-center space-x-3">
-          <Image src={icon} alt={title} width={40} height={40} />
+          <Image
+            src={process.env.NEXT_PUBLIC_BASE_PATH + "/" + icon}
+            alt={title}
+            width={40}
+            height={40}
+          />
           <h3 className="text-lg font-semibold">{title}</h3>
         </div>
         <p className="text-sm text-gray-600">{description}</p>

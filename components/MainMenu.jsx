@@ -31,7 +31,7 @@ function MainMenu() {
     <nav className="z-20 fixed flex px-10 top-0 left-0 w-full bg-slate-50 text-white shadow-lg ">
       <Link href="/" className="gap-2 flex-center pt-1 ">
         <Image
-          src="/assets/images/logo.svg"
+          src={process.env.NEXT_PUBLIC_BASE_PATH + "/assets/images/logo.svg"}
           alt="logo"
           width={50}
           height={50}

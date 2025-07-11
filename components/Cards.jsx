@@ -7,7 +7,7 @@ function Cards(props) {
   return (
     <div class="hover:animate-none animate-wiggle max-w-sm p-6 m-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-purple-950 dark:border-gray-700 ">
       <Image
-        src={icon}
+        src={process.env.NEXT_PUBLIC_BASE_PATH + "/" + icon}
         alt="logo"
         width={50}
         height={50}

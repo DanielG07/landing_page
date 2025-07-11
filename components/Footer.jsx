@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-10 md:flex md:items-center md:justify-between">
         <div className="flex items-center space-x-3">
           <Image
-            src="/assets/images/logo.svg"
+            src={process.env.NEXT_PUBLIC_BASE_PATH + "/assets/images/logo.svg"}
             alt="Xcript Logo"
             width={32}
             height={32}
